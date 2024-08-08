@@ -1,0 +1,28 @@
+Getting started with aws cdk
+Aws cdk is a very use fo
+Install aws cli
+Install node
+npm install -g aws-cdk
+cdk –version
+py -m pip install --upgrade pip
+cdk init sample-app --language python
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+make changes to stack as necessary
+aws configure
+cdk bootstrap
+creates the necessary resources for the stack like buckets ecr to store assets and images.
+Cdk synth
+Generates cloudformation template 
+Cdk diff
+Provides the differences
+cdk deploy 
+make changes 
+cdk synth
+cdk diff
+cdk deploy
+
+cdk destroy
+
+If you are using CDK make sure to never modify the infra and codes in the console
+
